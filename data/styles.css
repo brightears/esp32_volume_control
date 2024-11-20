@@ -1,0 +1,478 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+h2 {
+    color: #444;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+.form-section {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #2196F3;
+    outline: none;
+    box-shadow: 0 0 5px rgba(33, 150, 243, 0.3);
+}
+
+.password-input-container {
+    position: relative;
+}
+
+.show-password-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #2196F3;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.show-password-btn:hover {
+    color: #1976D2;
+}
+
+.slider-container {
+    margin: 10px 0;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.slider-labels {
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.help-text {
+    display: block;
+    color: #666;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.submit-btn,
+.reset-btn {
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    flex: 1;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn {
+    background-color: #2196F3;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: #1976D2;
+}
+
+.reset-btn {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.reset-btn:hover {
+    background-color: #e0e0e0;
+}
+
+#status-message {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 4px;
+    display: none;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    display: block !important;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    display: block !important;
+}
+
+.warning {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+    display: block !important;
+}
+
+.loading {
+    background-color: #e2e3e5;
+    color: #383d41;
+    border: 1px solid #d6d8db;
+    display: block !important;
+}
+
+.status-bar {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.connection-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+.status-indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffc107; /* Default yellow for initial state */
+    transition: background-color 0.3s ease;
+}
+
+.status-indicator.connected {
+    background-color: #28a745; /* Green for connected */
+}
+
+.status-indicator.disconnected {
+    background-color: #dc3545; /* Red for disconnected */
+}
+
+.status-indicator.testing {
+    background-color: #ffc107; /* Yellow for testing */
+    animation: pulse 1.5s infinite;
+}
+
+.status-text {
+    font-size: 14px;
+    color: #495057;
+}
+.active-connection-info {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #dee2e6;
+}
+
+.wifi-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.connection-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.signal-quality {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    margin-left: 8px;
+    font-weight: normal;
+}
+
+.signal-quality.excellent {
+    background-color: #28a745;
+    color: white;
+}
+
+.signal-quality.good {
+    background-color: #84c440;
+    color: white;
+}
+
+.signal-quality.fair {
+    background-color: #ffc107;
+    color: black;
+}
+
+.signal-quality.poor {
+    background-color: #ff9800;
+    color: white;
+}
+
+.signal-quality.very-poor {
+    background-color: #dc3545;
+    color: white;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.debug-info {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+.debug-info h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #495057;
+    font-size: 16px;
+}
+
+.debug-info pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: monospace;
+    font-size: 12px;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
+
+    .submit-btn,
+    .reset-btn {
+        width: 100%;
+    }
+}
+
+/* Form validation styles */
+input:invalid {
+    border-color: #dc3545;
+}
+
+input:invalid:focus {
+    box-shadow: 0 0 5px rgba(220, 53, 69, 0.3);
+}
+
+/* Loading indicator for submit button */
+.submit-btn.loading {
+    position: relative;
+    color: transparent;
+}
+
+.submit-btn.loading::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 50%;
+    margin: -8px 0 0 -8px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    border-right-color: transparent;
+    animation: rotate 0.75s linear infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* Keep all your existing CSS up to the @keyframes rotate rule */
+
+/* Add these new styles at the end of the file */
+
+/* Styles for current value indicators */
+.current-value {
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 12px;
+    color: #28a745;
+    font-weight: normal;
+}
+
+/* Styles for populated form fields */
+input[data-current] {
+    border-color: #28a745;
+    background-color: #f8fff8;
+}
+
+input[data-current]:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.3);
+}
+
+/* Style for form groups with current values */
+.form-group.has-current label {
+    color: #28a745;
+}
+
+/* Status indicator modifications */
+.status-indicator.connected + .status-text {
+    color: #28a745;
+}
+
+/* Placeholder text color */
+input::placeholder {
+    color: #999;
+}
+
+/* Modified input styles when showing current value */
+.form-group input[data-current]:not(:focus) {
+    border-width: 2px;
+}
+
+/* Add visual feedback for changed values */
+.form-group input:not([data-current]) {
+    border-color: #2196F3;
+}
+
+.form-group input:not([data-current]):focus {
+    border-color: #1976D2;
+    box-shadow: 0 0 5px rgba(33, 150, 243, 0.3);
+}
+
+/* Style for required fields when they have current values */
+.form-group input[required][data-current] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%2328a745' viewBox='0 0 16 16'%3E%3Cpath d='M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    padding-right: 32px;
+}
+
+/* Animation for status updates */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.current-value {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Improve visibility of current connection status */
+.connection-status.connected {
+    border-color: #28a745;
+    background-color: #f8fff8;
+}
+
+/* Style modifications for the sensitivity slider when has current value */
+input[type="range"][data-current] {
+    accent-color: #28a745;
+}
+
+/* Make password fields with current values more distinct */
+.password-input-container input[data-current] {
+    background-color: #f8fff8;
+}
+
+/* Additional responsive styles for current value indicators */
+@media (max-width: 480px) {
+    .current-value {
+        display: block;
+        margin-left: 0;
+        margin-top: 4px;
+    }
+}

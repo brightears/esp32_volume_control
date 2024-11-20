@@ -1,0 +1,11 @@
+me-no-dev/AsyncTCP
+me-no-dev/ESP Async WebServer
+Update
+Preferences
+SPIFFS
+HTTPClient
+bblanchon/ArduinoJson @ ^6.21.5
+WiFi
+WiFiClientSecure
+DNSServer
+FS

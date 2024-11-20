@@ -1,0 +1,209 @@
+[37m09:06:17.467 >  Arduino Ev[   640][V][WiFiGeneric.cpp:356] _arduino_event_cb(): STA Connected: SSID: NORBERT_2.4G, BSSID: dc:ef:80:19:de:e0, Channel: 1, Auth: WPA_WPA2_PSK
+09:06:17.467 > [   653][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 4 - STA_CONNECTED
+09:06:17.467 > ....[  2822][V][WiFiGeneric.cpp:370] _arduino_event_cb(): STA Got New IP:192.168.1.190
+09:06:17.467 > [  2830][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 7 - STA_GOT_IP
+09:06:17.467 > [  2838][D][WiFiGeneric.cpp:1103] _eventCallback(): STA IP: 192.168.1.190, MASK: 255.255.255.0, GW: 192.168.1.1
+[37m09:06:17.614 > .[37m
+09:06:17.614 > Connec[37mted to WiFi[37m[37m
+09:06:17.616 > Connected to saved WiF[37mi[37m network
+[37m09:06:17.619 > A[37mPI Client: I[37mn[37mitialized[37m [37msuccessfull[37my[37m
+09:06:17.621 > API clie[37mn[37mt initializ[37me[37md successf[37mu[37mlly
+09:06:17.624 > Web se[37mr[37mver starte[37md[37m
+09:06:17.626 > Free heap[37m:[37m 213276 by[37mt[37mes
+09:06:17.628 > Largest [37mf[37mree heap b[37ml[37mock: 110580[37m [37mbytes
+[37m09:06:17.673 > S[37mound l[37me[37mvel: 0.07
+[37m09:06:17.673 > [[37m  3157][V][[37mH[37mTTPClient.[37mc[37mpp:252] beg[37mi[37mnInternal([37m)[37m: url: http[37ms[37m://api.sou[37mn[37mdtrackyourb[37mr[37mand.com/v2[37m[37m
+09:06:17.687 > [  316[37m6[37m][D][HTTPCl[37mi[37ment.cpp:30[37m3[37m] beginInte[37mr[37mnal(): pro[37mt[37mocol: https[37m,[37m host: api[37m.[37msoundtracky[37mo[37murbrand.co[37mm[37m port: 443 [37mu[37mrl: /v2
+[37m09:06:17.687 > S[37mend[37mi[37mng request.[37m.[37m.
+09:06:17.703 > Query: [37m{[37m"query":"qu[37me[37mry { sound[37mZ[37mone(id: \"U[37m2[37m91bmRab25l[37mL[37mCwxYzN3NGR0[37mc[37mXkyby9Mb2Nh[37md[37mGlvbiwsMWw[37mz[37mNHpkc3RibHM[37mv[37mQWNjb3VudC[37mw[37msMThjdHE4b2[37mt[37m4czAv\") {[37m [37mplayback { [37mv[37molume } } [37m}[37m"}
+09:06:17.704 > [  3188[37m][37m[D][HTTPCl[37mi[37ment.cpp:598[37m][37m sendReque[37ms[37mt(): reques[37mt[37m type: 'PO[37mS[37mT' redirCou[37mn[37mt: 0
+09:06:17.721 > 
+[37m09:06:17.737 > [[37m [37m 3214][V[37m][37m[ssl_clien[37mt[37m.cpp:62] s[37mt[37mart_ssl_cli[37me[37mnt(): Free [37mi[37mnternal he[37ma[37mp before TL[37mS[37m 210032
+[37m09:06:17.743 > [[37m  3222][V][37m[[37mssl_client.[37mc[37mpp:68] sta[37mr[37mt_ssl_clien[37mt[37m(): Starti[37mn[37mg socket
+[37m09:06:17.772 > [[37m [37m 3256][V][s[37ms[37ml_client.c[37mp[37mp:146] star[37mt[37m_ssl_clien[37mt[37m(): Seeding[37m [37mthe random[37m [37mnumber gene[37mr[37mator
+[37m09:06:17.788 > [[37m [37m 3265][V][[37ms[37msl_client.c[37mp[37mp:155] sta[37mr[37mt_ssl_clien[37mt[37m(): Setting[37m [37mup the SSL[37m/[37mTLS structu[37mr[37me...
+[37m09:06:17.788 > [[37m [37m 3275[37m][37m[D][ssl_cli[37me[37mnt.cpp:176[37m][37m start_ssl_[37mc[37mlient(): W[37mA[37mRNING: Ski[37mp[37mping SSL Ve[37mr[37mification.[37m [37mINSECURE!
+[37m09:06:17.805 > [[37m  3284][V[37m][37m[ssl_client[37m.[37mcpp:254] s[37mt[37mart_ssl_cl[37mi[37ment(): Sett[37mi[37mng hostname[37m [37mfor TLS se[37ms[37msion...
+[37m09:06:17.805 > [[37m  3292[37m][37m[V][ssl_cli[37me[37mnt.cpp:269[37m][37m start_ssl_[37mc[37mlient(): P[37me[37mrforming th[37me[37m SSL/TLS h[37ma[37mndshake...[37m
+[37m09:06:17.821 > [  33[37m0[37m0][E][ssl_c[37ml[37mient.cpp:37[37m][37m _handle_e[37mr[37mror(): [sta[37mr[37mt_ssl_clie[37mn[37mt():273]: ([37m-[37m29696) SSL[37m [37m- No RNG wa[37ms[37m provided [37mt[37mo the SSL m[37mo[37mdule
+09:06:17.836 > [  [37m3[37m311][E][Wi[37mF[37miClientSecu[37mr[37me.cpp:144] [37mc[37monnect(): [37ms[37mtart_ssl_cl[37mi[37ment: -2969[37m6[37m
+[37m09:06:17.843 > [[37m [37m 3319][V][[37ms[37msl_client.c[37mp[37mp:321] sto[37mp[37m_ssl_socket[37m([37m): Cleanin[37mg[37m SSL connec[37mt[37mion.
+[37m09:06:17.843 > [37m
+09:06:17.843 > assert fa[37mi[37mled: heap_[37mc[37maps_free he[37ma[37mp_caps.c:3[37m8[37m1 (heap != [37mN[37mULL && "fre[37me[37m() target [37mp[37mointer is [37mo[37mutside heap[37m [37mareas")
+09:06:17.858 > [37m
+[37m09:06:17.858 > 
+09:06:17.858 > Backtrace[37m:[37m 0x4008378[37md[37m:0x3ffb1ba0[37m [37m0x4008dc65[37m:[37m0x3ffb1bc0 [37m0[37mx4009328d:0[37mx[37m3ffb1be0 0[37mx[37m40083cf6:0x[37m3[37mffb1d10 0x[37m4[37m0085b05:0x3[37mf[37mfb1d30 0x4[37m0[37m0d80fe:0x3[37mf[37mfb1d50 0x40[37m1[37m28158:0x3ff[37mb[37m1d70 0x400[37me[37m33ab:0x3ffb[37m1[37md90 0x400e[37m1[37mbe8:0x3ffb1[37md[37mb0 0x400e1[37me[37m59:0x3ffb1d[37md[37m0 0x400e1e[37mb[37mf:0x3ffb1e2[37m0[37m 0x400e1fca[37m:[37m0x3ffb1e60[37m [37m0x40181e21:[37m0[37mx3ffb1e80 [37m0[37mx400e4b55:[37m0[37mx3ffb1ea0 0[37mx[37m400e6031:0[37mx[37m3ffb1ef0 0x[37m4[37m00e63d7:0x[37m3[37mffb1f70 0x4[37m0[37m0e63f9:0x3f[37mf[37mb1f90 0x40[37m0[37md38ae:0x3ff[37mb[37m1fb0 0x400[37md[37m4392:0x3ffb[37m2[37m0f0 0x400d[37m6[37md21:0x3ffb2[37m2[37m60 0x400e9[37mc[37mc1:0x3ffb22[37m9[37m0
+09:06:18.654 >   #0  0x4008378d in panic_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/panic.c:408
+09:06:18.654 >   #1  0x4008dc65 in esp_system_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/esp_system.c:137
+09:06:18.654 >   #2  0x4009328d in __assert_func at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/newlib/assert.c:85
+09:06:18.654 >   #3  0x40083cf6 in heap_caps_free at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/heap/heap_caps.c:381
+09:06:18.654 >       (inlined by) heap_caps_free at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/heap/heap_caps.c:366
+09:06:18.654 >   #4  0x40085b05 in esp_mbedtls_mem_free at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/mbedtls/port/esp_mem.c:46
+09:06:18.654 >   #5  0x400d80fe in mbedtls_free at D:\API Projects\ESP32_Volume_Control/.pio/libdeps/esp32dev/mbedtls/library/platform.c:72
+09:06:18.654 >   #6  0x40128158 in mbedtls_ssl_free at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/mbedtls/mbedtls/library/ssl_tls.c:6807
+09:06:18.654 >   #7  0x400e33ab in stop_ssl_socket(sslclient_context*, char const*, char const*, char const*) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/ssl_client.cpp:336
+09:06:18.654 >   #8  0x400e1be8 in WiFiClientSecure::stop() at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/WiFiClientSecure.cpp:98
+09:06:18.654 >   #9  0x400e1e59 in WiFiClientSecure::connect(IPAddress, unsigned short, char const*, char const*, char const*, char const*) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/WiFiClientSecure.cpp:145
+09:06:18.654 >   #10 0x400e1ebf in WiFiClientSecure::connect(char const*, unsigned short, char const*, char const*, char const*) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/WiFiClientSecure.cpp:136
+09:06:18.654 >   #11 0x400e1fca in WiFiClientSecure::connect(char const*, unsigned short) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/WiFiClientSecure.cpp:117
+09:06:18.654 >       (inlined by) WiFiClientSecure::connect(char const*, unsigned short) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/WiFiClientSecure.cpp:113
+09:06:18.654 >   #12 0x40181e21 in WiFiClientSecure::connect(char const*, unsigned short, int) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/WiFiClientSecure.cpp:122
+09:06:18.654 >   #13 0x400e4b55 in HTTPClient::connect() at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src/HTTPClient.cpp:1162
+09:06:18.654 >   #14 0x400e6031 in HTTPClient::sendRequest(char const*, unsigned char*, unsigned int) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src/HTTPClient.cpp:601
+09:06:18.654 >   #15 0x400e63d7 in HTTPClient::POST(unsigned char*, unsigned int) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src/HTTPClient.cpp:529
+09:06:18.654 >   #16 0x400e63f9 in HTTPClient::POST(String) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src/HTTPClient.cpp:534
+09:06:18.654 >   #17 0x400d38ae in APIClient::makeRequest(String const&, bool) at D:\API Projects\ESP32_Volume_Control/src/api_client.cpp:142 (discriminator 1)
+09:06:18.654 >   #18 0x400d4392 in APIClient::getCurrentVolume() at D:\API Projects\ESP32_Volume_Control/src/api_client.cpp:193
+09:06:18.654 >   #19 0x400d6d21 in loop() at D:\API Projects\ESP32_Volume_Control/src/main.cpp:104
+09:06:18.654 >   #20 0x400e9cc1 in loopTask(void*) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/cores/esp32/main.cpp:50
+09:06:18.654 > 
+09:06:18.654 > 
+09:06:18.654 > 
+09:06:18.654 > 
+09:06:18.654 > [37m
+09:06:18.706 > ELF file SHA256: 44e51d494a11231e
+09:06:18.706 > 
+09:06:18.706 > Rebooting...
+09:06:18.706 > ets Jul 29 2019 12:21:46
+09:06:18.706 > 
+09:06:18.706 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:06:18.706 > configsip: 0, SPIWP:0xee
+09:06:18.706 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:06:18.706 > mode:DIO, clock div:1
+09:06:18.706 > load:0x3fff0030,len:1184
+09:06:18.706 > load:0x40078000,len:13260
+09:06:18.706 > load:0x40080400,len:3028
+09:06:18.706 > entry 0x400805e4
+09:06:18.706 > [    26][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+09:06:18.706 > [    63][V][esp32-hal-uart.c:330] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(3) txPin(1)
+09:06:18.706 > [    72][V][esp32-hal-uart.c:416] uartBegin(): UART0 not installed. Starting installation
+09:06:18.706 > [    82][V][esp32-hal-uart.c:463] uartBegin(): UART0 initialization done.
+09:06:18.706 > ESP32 starting up...
+[37m09:06:18.706 > Loaded saved sensitivity: 50
+09:06:18.706 > WiFi manager initialized successfully
+09:06:18.706 > [   191][D][WiFiGeneric.cpp:1040] _eventCallback(): Arduino Event: 0 - WIFI_READY
+[37m09:06:18.757 > [[37m   273][V][Wi[37mF[37miGeneric.c[37mp[37mp:341] _ard[37mu[37mino_event_[37mc[37mb(): STA St[37ma[37mrted
+09:06:18.773 > Acce[37ms[37ms Point cre[37ma[37mted. SSID:[37m [37mESP32_SETUP[37m[37m
+09:06:18.773 > IP: 192.1[37m6[37m8.4.1
+[37m09:06:18.773 > [[37m   285][D][37m[[37mWiFiGeneric[37m.[37mcpp:1040] [37m_[37meventCallba[37mc[37mk(): Ardui[37mn[37mo Event: 2 [37m-[37m STA_START[37m[37m
+09:06:18.789 > E (792) wi[37mf[37mi_init_def[37ma[37mult: esp_wi[37mf[37mi_get_mac f[37ma[37miled with [37m1[37m2289
+09:06:18.789 > [   2[37m8[37m7][V][WiFi[37mG[37meneric.cpp[37m:[37m393] _ardui[37mn[37mo_event_cb[37m([37m): AP Start[37me[37md
+09:06:18.789 > E (810[37m)[37m wifi_init[37m_[37mdefault: es[37mp[37m_wifi_get_[37mm[37mac failed w[37mi[37mth 12289
+[37m09:06:18.806 > [[37m   304][E][[37mW[37miFiGeneric[37m.[37mcpp:1047] _[37me[37mventCallba[37mc[37mk(): esp_wi[37mf[37mi_set_ps [[37m [37mail04][V][W[37mi[37mFiGeneric.[37mc[37mpp:344] _ar[37md[37muino_event_[37mc[37mb(): STA S[37mt[37mopped
+09:06:18.806 > [ [37m [37m 321][D][W[37mi[37mFiGeneric.c[37mp[37mp:1040] _e[37mv[37mentCallback[37m([37m): Arduino [37mE[37mvent: 10 -[37m [37mAP_START
+[37m09:06:18.822 > [[37m   321][V][[37mW[37miFiGeneric.[37mc[37mpp:396] _a[37mr[37mduino_event[37m_[37mcb(): AP S[37mt[37mopped
+09:06:18.822 > [ [37m [37m 334][D][Wi[37mF[37miGeneric.c[37mp[37mp:1040] _ev[37me[37mntCallback[37m([37m): Arduino [37mE[37mvent: 3 - [37mS[37mTA_STOP
+09:06:18.837 > [[37m [37m  341][D][[37mW[37miFiGeneric.[37mc[37mpp:1040] _[37me[37mventCallba[37mc[37mk(): Arduin[37mo[37m Event: 11 [37m-[37m AP_STOP
+[37m09:06:18.890 > [[37m [37m  39[37m6[37m][D][WiFiGe[37mn[37meric.cpp:1[37m0[37m40] _eventC[37ma[37mllback(): [37mA[37mrduino Even[37mt[37m: 0 - WIFI[37m_[37mREADY
+[37m09:06:18.904 > [[37m [37m  409][V[37m][37m[WiFiGeneri[37mc[37m.cpp:97] s[37me[37mt_esp_inter[37mf[37mace_ip(): [37mC[37monfiguring [37mS[37moftAP stat[37mi[37mc IP: 192.1[37m6[37m8.4.1, MASK[37m:[37m 255.255.2[37m5[37m5.0, GW: 1[37m9[37m2.168.  40
+[37m09:06:18.906 > ][37m[V][WiFiGe[37mn[37meric.cpp:39[37m3[37m] _arduino[37m_[37mevent_cb():[37m [37mAP Started[37m[37m
+09:06:18.922 > [   426[37m][37m[D][WiFiGen[37me[37mric.cpp:10[37m4[37m0] _eventCa[37ml[37mlback(): Ar[37md[37muino Event[37m:[37m 10 - AP_ST[37mA[37mRT
+[37m09:06:18.924 > [[37m   434][V][[37mW[37miFiGeneric[37m.[37mcpp:143] se[37mt[37m_esp_inter[37mf[37mace_ip(): S[37mo[37mftAP: 192.1[37m6[37m8.4.1 | Ga[37mt[37meway: 192.1[37m6[37m8.4.1 | DH[37mC[37mP Start: 0.[37m0[37m.0.0 | Net[37mm[37mask: 255.25[37m5[37m.255.0
+[37m09:06:18.941 > [[37m   447][V][[37mW[37miFiGeneric[37m.[37mcpp:190] s[37me[37mt_esp_inter[37mf[37mace_ip(): [37mD[37mHCP Server [37mR[37mange: 192.1[37m6[37m8.4.2 to 1[37m9[37m2.168.4.12[37m
+[37m09:06:19.052 > A[37mP I[37mP[37m address: [37m1[37m92.168.4.1[37m
+[37m09:06:19.056 > Captive portal started[37m[37m
+09:06:19.058 > [   560][V[37m][WiFiGener[37mi[37mc.cpp:341] [37m_arduino_ev[37me[37mnt_cb(): ST[37mA[37m Started
+[37m09:06:19.064 > [   564][V][[37mW[37miFiGeneric[37m.[37mcpp:97] set[37m_[37mesp_interf[37ma[37mce_ip(): Co[37mn[37mfiguring S[37mt[37mation stati[37mc[37m IP: 0.0.0[37m.[37m0, MASK: 0.[37m0[37m.0.0, GW: 0[37m.[37m0.0.0
+09:06:19.072 > [[37m [37m  578][D][[37mW[37miFiGeneric.[37mc[37mpp:1040] _[37me[37mventCallbac[37mk[37m(): Arduin[37mo[37m Event: 2 -[37m [37mSTA_START[37m
+[37m09:06:19.200 > [[37m [37m  704][[37mV[37m][WiFiGener[37mi[37mc.cpp:356] [37m_[37marduino_ev[37me[37mnt_cb(): ST[37mA[37m Connected[37m:[37m SSID: NORB[37mE[37mRT_2.4G, B[37mS[37mSID: dc:ef:[37m8[37m0:19:de:e0[37m,[37m Channel: 1[37m,[37m Auth: WPA[37m_[37mWPA2_PSK
+[37m09:06:19.206 > [[37m   717][37m[[37mD][WiFiGen[37me[37mric.cpp:104[37m0[37m] _eventCal[37ml[37mback(): Ar[37md[37muino Event:[37m [37m4 - STA_CO[37mN[37mNECTED
+[37m09:06:19.571 > .[37m.[37m.[37m.[37m[[37m  2954][V[37m][37m[WiFiGeneric.cpp:370] [37m_[37marduino_eve[37mn[37mt_cb(): ST[37mA[37m Got New IP:192.168.1.[37m1[37m90
+09:06:21.457 > [  2[37m9[37m62][D][WiFi[37mG[37meneric.cpp:[37m1[37m040] _even[37mt[37mCallback():[37m [37mArduino Ev[37me[37mnt: 7 - STA[37m_[37mGOT_IP
+[37m09:06:21.457 > [[37m  2969][D][[37mW[37miFiGeneric[37m.[37mcpp:1103] [37m_[37meventCallba[37mc[37mk(): STA I[37mP[37m: 192.168.1[37m.[37m190, MASK: [37m2[37m55.255.255[37m.[37m0, GW: 192.[37m1[37m68.1.1
+[37m09:06:21.582 > .[37m
+09:06:21.582 > Co[37mnnected to [37mW[37miFi
+09:06:21.585 > Connected to save[37md[37m WiFi netwo[37mr[37mk
+09:06:21.587 > API C[37ml[37mient: Initi[37ma[37mlized succ[37me[37mssfully
+09:06:21.590 > AP[37mI[37m client in[37mi[37mtialized su[37mc[37mcessfully[37m
+[37m09:06:21.592 > Web server [37ms[37mtarted
+09:06:21.592 > Fr[37mee heap: 213[37m5[37m56 bytes
+09:06:21.592 > L[37ma[37mrgest free [37mh[37meap block:[37m [37m110580 byte[37ms[37m
+[37m09:06:21.641 > S[37mo[37mund level: [37m0[37m.13
+09:06:21.641 > [  3155[37m][37m[V][HTTPCl[37mi[37ment.cpp:252[37m][37m beginInte[37mr[37mnal(): url[37m:[37m https://ap[37mi[37m.soundtrack[37my[37mourbrand.c[37mo[37mm/v2
+09:06:21.657 > [[37m [37m 3164][D][H[37mT[37mTPClient.c[37mp[37mp:303] beg[37mi[37mnInternal()[37m:[37m protocol: [37mh[37mttps, host[37m:[37m api.soundt[37mr[37mackyourbra[37mn[37md.com port:[37m [37m443 url: /v[37m2[37m
+09:06:21.657 > S[37me[37mnding requ[37me[37mst...
+09:06:21.673 > Quer[37my[37m: {"query"[37m:[37m"query { so[37mu[37mndZone(id:[37m [37m\"U291bmRab[37m2[37m5lLCwxYzN3[37mN[37mGR0cXkyby9M[37mb[37m2NhdGlvbiw[37ms[37mMWwzNHpkc3R[37mi[37mbHMvQWNjb3V[37mu[37mdCwsMThjdH[37mE[37m4b2t4czAv\"[37m)[37m { playbac[37mk[37m { volume [37m}[37m } }"}
+09:06:21.674 > [  [37m3[37m186][D][HT[37mT[37mPClient.cpp[37m:[37m598] sendRe[37mq[37muest(): re[37mq[37muest type: [37m'[37mPOST' redi[37mr[37mCount: 0
+09:06:21.690 > [37m
+[37m09:06:21.707 > [[37m  3220[37m][37m[V][ssl_cl[37mi[37ment.cpp:62][37m [37mstart_ssl_[37mc[37mlient(): Fr[37me[37me internal[37m [37mheap before[37m [37mTLS 210312[37m[37m
+09:06:21.724 > [  3228][[37mV[37m][ssl_clie[37mn[37mt.cpp:68] s[37mt[37mart_ssl_cl[37mi[37ment(): Star[37mt[37ming socket[37m
+[37m09:06:21.740 > [[37m [37m 32[37m5[37m0][V][ssl_[37mc[37mlient.cpp:1[37m4[37m6] start_s[37ms[37ml_client():[37m [37mSeeding th[37me[37m random num[37mb[37mer generat[37mo[37mr
+[37m09:06:21.754 > [  3258][37m[[37mV][ssl_cli[37me[37mnt.cpp:155][37m [37mstart_ssl_c[37ml[37mient(): Se[37mt[37mting up th[37me[37m SSL/TLS st[37mr[37mucture...[37m
+[37m09:06:21.757 > [[37m  3267[37m][37m[D][ssl_cl[37mi[37ment.cpp:176[37m][37m start_ssl[37m_[37mclient(): [37mW[37mARNING: Ski[37mp[37mping SSL Ve[37mr[37mification.[37m [37mINSECURE!
+[37m09:06:21.772 > [[37m  3276][V[37m][37m[ssl_clien[37mt[37m.cpp:254] s[37mt[37mart_ssl_cl[37mi[37ment(): Sett[37mi[37mng hostnam[37me[37m for TLS se[37ms[37msion...
+[37m09:06:21.774 > [[37m  3284][37m[[37mV][ssl_cli[37me[37mnt.cpp:269][37m [37mstart_ssl_[37mc[37mlient(): P[37me[37mrforming th[37me[37m SSL/TLS h[37ma[37mndshake...[37m
+[37m09:06:21.789 > [  329[37m2[37m][E][ssl_cl[37mi[37ment.cpp:37[37m][37m _handle_er[37mr[37mor(): [sta[37mr[37mt_ssl_clien[37mt[37m():273]: ([37m-[37m29696) SSL [37m-[37m No RNG wa[37ms[37m provided t[37mo[37m the SSL mo[37md[37mule
+09:06:21.790 > [  [37m3[37m304][E][WiF[37mi[37mClientSecu[37mr[37me.cpp:144] [37mc[37monnect(): s[37mt[37mart_ssl_cl[37mi[37ment: -29696[37m[37m
+[37m09:06:21.807 > [[37m [37m 3312][[37mV[37m][ssl_clien[37mt[37m.cpp:321] s[37mt[37mop_ssl_soc[37mk[37met(): Clean[37mi[37mng SSL con[37mn[37mection.
+[37m09:06:21.807 > [37m
+09:06:21.807 > assert[37m [37mfailed: he[37ma[37mp_caps_free[37m [37mheap_caps.[37mc[37m:381 (heap [37m![37m= NULL && "[37mf[37mree() targ[37me[37mt pointer i[37ms[37m outside h[37me[37map areas")[37m
+[37m09:06:21.824 > 
+09:06:21.824 > 
+09:06:21.824 > Backtr[37ma[37mce: 0x40083[37m7[37m8d:0x3ffb1[37mb[37ma0 0x4008dc[37m6[37m5:0x3ffb1b[37mc[37m0 0x4009328[37md[37m:0x3ffb1be[37m0[37m 0x40083cf6[37m:[37m0x3ffb1d10 [37m0[37mx40085b05:[37m0[37mx3ffb1d30 0[37mx[37m400d80fe:0[37mx[37m3ffb1d50 0[37mx[37m40128158:0x[37m3[37mffb1d70 0x[37m4[37m00e33ab:0x3[37mf[37mfb1d90 0x40[37m0[37me1be8:0x3f[37mf[37mb1db0 0x400[37me[37m1e59:0x3ff[37mb[37m1dd0 0x400e[37m1[37mebf:0x3ffb[37m1[37me20 0x400e1[37mf[37mca:0x3ffb1[37me[37m60 0x40181e[37m2[37m1:0x3ffb1e[37m8[37m0 0x400e4b5[37m5[37m:0x3ffb1ea[37m0[37m 0x400e6031[37m:[37m0x3ffb1ef0[37m [37m0x400e63d7:[37m0[37mx3ffb1f70 [37m0[37mx400e63f9:0[37mx[37m3ffb1f90 0x[37m4[37m00d38ae:0x[37m3[37mffb1fb0 0x[37m4[37m00d4392:0x3[37mf[37mfb20f0 0x4[37m0[37m0d6d21:0x3f[37mf[37mb2260 0x40[37m0[37me9cc1:0x3ff[37mb[37m2290
+09:06:22.555 >   #0  0x4008378d in panic_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/panic.c:408
+09:06:22.555 >   #1  0x4008dc65 in esp_system_abort at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/esp_system/esp_system.c:137
+09:06:22.555 >   #2  0x4009328d in __assert_func at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/newlib/assert.c:85
+09:06:22.555 >   #3  0x40083cf6 in heap_caps_free at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/heap/heap_caps.c:381
+09:06:22.555 >       (inlined by) heap_caps_free at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/heap/heap_caps.c:366
+09:06:22.555 >   #4  0x40085b05 in esp_mbedtls_mem_free at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/mbedtls/port/esp_mem.c:46
+09:06:22.555 >   #5  0x400d80fe in mbedtls_free at D:\API Projects\ESP32_Volume_Control/.pio/libdeps/esp32dev/mbedtls/library/platform.c:72
+09:06:22.555 >   #6  0x40128158 in mbedtls_ssl_free at /home/runner/work/esp32-arduino-lib-builder/esp32-arduino-lib-builder/esp-idf/components/mbedtls/mbedtls/library/ssl_tls.c:6807
+09:06:22.555 >   #7  0x400e33ab in stop_ssl_socket(sslclient_context*, char const*, char const*, char const*) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/ssl_client.cpp:336
+09:06:22.555 >   #8  0x400e1be8 in WiFiClientSecure::stop() at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/WiFiClientSecure.cpp:98
+09:06:22.555 >   #9  0x400e1e59 in WiFiClientSecure::connect(IPAddress, unsigned short, char const*, char const*, char const*, char const*) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/WiFiClientSecure.cpp:145
+09:06:22.555 >   #10 0x400e1ebf in WiFiClientSecure::connect(char const*, unsigned short, char const*, char const*, char const*) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/WiFiClientSecure.cpp:136
+09:06:22.555 >   #11 0x400e1fca in WiFiClientSecure::connect(char const*, unsigned short) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/WiFiClientSecure.cpp:117
+09:06:22.555 >       (inlined by) WiFiClientSecure::connect(char const*, unsigned short) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/WiFiClientSecure.cpp:113
+09:06:22.555 >   #12 0x40181e21 in WiFiClientSecure::connect(char const*, unsigned short, int) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src/WiFiClientSecure.cpp:122
+09:06:22.555 >   #13 0x400e4b55 in HTTPClient::connect() at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src/HTTPClient.cpp:1162
+09:06:22.555 >   #14 0x400e6031 in HTTPClient::sendRequest(char const*, unsigned char*, unsigned int) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src/HTTPClient.cpp:601
+09:06:22.555 >   #15 0x400e63d7 in HTTPClient::POST(unsigned char*, unsigned int) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src/HTTPClient.cpp:529
+09:06:22.555 >   #16 0x400e63f9 in HTTPClient::POST(String) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src/HTTPClient.cpp:534
+09:06:22.555 >   #17 0x400d38ae in APIClient::makeRequest(String const&, bool) at D:\API Projects\ESP32_Volume_Control/src/api_client.cpp:142 (discriminator 1)
+09:06:22.555 >   #18 0x400d4392 in APIClient::getCurrentVolume() at D:\API Projects\ESP32_Volume_Control/src/api_client.cpp:193
+09:06:22.555 >   #19 0x400d6d21 in loop() at D:\API Projects\ESP32_Volume_Control/src/main.cpp:104
+09:06:22.555 >   #20 0x400e9cc1 in loopTask(void*) at C:/Users/platz/.platformio/packages/framework-arduinoespressif32/cores/esp32/main.cpp:50
+09:06:22.555 > 
+09:06:22.555 > 
+09:06:22.555 > 
+09:06:22.555 > [37m
+09:06:22.609 > 
+09:06:22.609 > ELF file SHA256: 44e51d494a11231e
+09:06:22.609 > 
+09:06:22.609 > Rebooting...
+09:06:22.609 > ets Jul 29 2019 12:21:46
+09:06:22.609 > 
+09:06:22.609 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+09:06:22.609 > configsip: 0, SPIWP:0xee
+09:06:22.609 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+09:06:22.609 > mode:DIO, clock div:1
+09:06:22.609 > load:0x3fff0030,len:1184
+09:06:22.609 > load:0x40078000,len:13260
+09:06:22.609 > load:0x40080400,len:3028
+09:06:22.609 > entry 0x400805e4
+09:06:22.609 > [    26][D][esp32-hal-cpu.c:244] setCpuFrequencyMhz(): PLL: 480 / 2 = 240 Mhz, APB: 80000000 Hz
+09:06:22.609 > [    63][V][esp32-hal-uart.c:330] uartBegin(): UART0 baud(115200) Mode(800001c) rxPin(3) txPin(1)
+09:06:22.609 > [    72][V][esp32-hal-uart.c:416] uartBegin(): UART0 not installed. Starting installation
+09:06:22.609 > [    82][V][esp32-hal-uart.c:463] uartBegin(): UART0 initialization done.
+09:06:22.609 > ESP32 starting up...
+[37m09:06:22.626 > L[37mo[37maded s[37ma[37mved sensiti[37mv[37mity: 50
+09:06:22.626 > Wi[37mF[37mi manager i[37mn[37mitialized [37ms[37muccessfully[37m[37m
+[37m09:06:22.642 > [[37m  [37m 191][D][Wi[37mF[37miGeneric.cp[37mp[37m:1040] _ev[37me[37mntCallback([37m)[37m: Arduino [37mE[37mvent: 0 - W[37mI[37mFI_READY
+[37m09:06:22.726 > [[37m [37m  272][V][37m[[37mWiFiGeneric[37m.[37mcpp:341] _[37ma[37mrduino_even[37mt[37m_cb(): STA[37m [37mStarted
+09:06:22.742 > Ac[37mc[37mess Point [37mc[37mreated. SSI[37mD[37m: ESP32_SE[37mT[37mUP
+09:06:22.742 > IP: 192[37m.[37m168.4.1
+[37m09:06:22.742 > [[37m   284][[37mD[37m][WiFiGene[37mr[37mic.cpp:1040[37m][37m _eventCal[37ml[37mback(): Ard[37mu[37mino Event: [37m2[37m - STA_STA[37mR[37mT
+09:06:22.742 > E (790) [37mw[37mifi_init_d[37me[37mfault: esp_[37mw[37mifi_get_ma[37mc[37m failed wi[37mt[37mh 12289
+09:06:22.759 > [ [37m [37m 286][V][W[37mi[37mFiGeneric.c[37mp[37mp:393] _ard[37mu[37mino_event_[37mc[37mb(): AP Sta[37mr[37mted
+09:06:22.759 > E ([37m8[37m09) wifi_in[37mi[37mt_default:[37m [37mesp_wifi_ge[37mt[37m_mac faile[37md[37m with 12289[37m[37m
+09:06:22.759 > [   303][[37mE[37m][WiFiGener[37mi[37mc.cpp:1047[37m][37m _eventCall[37mb[37mack(): esp_[37mw[37mifi_set_ps[37m [37mfai 30
+09:06:22.775 > [V][37m[[37mWiFiGeneri[37mc[37m.cpp:344] _[37ma[37mrduino_eve[37mn[37mt_cb(): ST[37mA[37m Stopped
+[37m09:06:22.775 > [[37m   320][D][37m[[37mWiFiGeneric[37m.[37mcpp:1040] [37m_[37meventCallba[37mc[37mk(): Ardui[37mn[37mo Event: 10[37m [37m- AP_START[37m[37m
+09:06:22.791 > [   320][V[37m][37m[WiFiGener[37mi[37mc.cpp:396] [37m_[37marduino_eve[37mn[37mt_cb(): AP[37m [37mStopped
+[37m09:06:22.792 > [[37m   333][D][[37mW[37miFiGeneric[37m.[37mcpp:1040] _[37me[37mventCallba[37mc[37mk(): Arduin[37mo[37m Event: 3 [37m-[37m STA_STOP
+[37m09:06:22.792 > [[37m   340][D[37m][37m[WiFiGeneri[37mc[37m.cpp:1040][37m [37m_eventCall[37mb[37mack(): Ardu[37mi[37mno Event: [37m1[37m1 - AP_STOP[37m[37m
+[37m09:06:22.859 > [[37m [37m  396[37m][37m[D][WiFiGen[37me[37mric.cpp:10[37m4[37m0] _eventCa[37ml[37mlback(): A[37mr[37mduino Event[37m:[37m 0 - WIFI_R[37mE[37mADY
+[37m09:06:22.859 > [[37m [37m  409][V][[37mW[37miFiGeneric[37m.[37mcpp:97] set[37m_[37mesp_interf[37ma[37mce_ip(): Co[37mn[37mfiguring S[37mo[37mftAP stati[37mc[37m IP: 192.16[37m8[37m.4.1, MASK[37m:[37m 255.255.25[37m5[37m.0, GW: 192[37m.[37m168.  1
+09:06:22.875 > ][37m[[37mV][WiFiGene[37mr[37mic.cpp:393[37m][37m _arduino_e[37mv[37ment_cb(): [37mA[37mP Started
+[37m09:06:22.875 > [[37m   426][[37mD[37m][WiFiGene[37mr[37mic.cpp:1040[37m][37m _eventCal[37ml[37mback(): Ard[37mu[37mino Event: [37m1[37m0 - AP_STA[37mR[37mT
+09:06:22.892 > [ [37m [37m 434][V][W[37mi[37mFiGeneric.c[37mp[37mp:143] set[37m_[37mesp_interfa[37mc[37me_ip(): So[37mf[37mtAP: 192.16[37m8
