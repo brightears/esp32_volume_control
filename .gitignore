@@ -1,8 +1,15 @@
+# Ignore build files and folders
 .pio/
 *.bin
 *.elf
 *.map
 *.o
 *.d
+
+# Ignore logs
 logs/
 *.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
